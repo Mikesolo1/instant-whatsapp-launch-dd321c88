@@ -71,7 +71,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between">
           <div className="text-gray-400">
-            &copy; {currentYear} S3. {t("footer.rights")} * Деятельность компании Meta Platforms Inc. по реализации продуктов — социальных сетей Facebook и Instagram — на территории Российской Федерации запрещена решением суда.
+            &copy; {currentYear} S3. {t("footer.rights")} <br></>* Деятельность компании Meta Platforms Inc. по реализации продуктов — социальных сетей Facebook и Instagram — на территории Российской Федерации запрещена решением суда.
           </div>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6">
