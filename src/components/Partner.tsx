@@ -50,20 +50,21 @@ const Partner = () => {
             </div>
           </div>
           
-          <div className="text-center">
-<ContactDialog 
-  title={t("partner.formTitle")}
-  description={t("partner.formDescription")}
-  includeMessage={true}
-  includeService={true}
-  service={t("partner.service")}
->
-  <Button className="bg-whatsapp hover:bg-whatsapp-dark text-white px-8 py-6 rounded-lg text-lg flex items-center gap-2">
-    <HandshakeIcon className="w-5 h-5 mr-2" />
-    {t("partner.button")}
-  </Button>
-</ContactDialog>
-          </div>
+<div className="flex justify-center">
+  <ContactDialog 
+    title={t("partner.formTitle")}
+    description={t("partner.formDescription")}
+    includeMessage={true}
+    includeService={true}
+    service={t("partner.service")}
+  >
+    <Button className="bg-whatsapp hover:bg-whatsapp-dark text-white px-8 py-6 rounded-lg text-lg flex items-center gap-2">
+      <HandshakeIcon className="w-5 h-5 mr-2" />
+      {t("partner.button")}
+    </Button>
+  </ContactDialog>
+</div>
+
         </div>
       </div>
     </section>
