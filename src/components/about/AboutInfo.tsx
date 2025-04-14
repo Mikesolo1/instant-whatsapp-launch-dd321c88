@@ -36,10 +36,10 @@ const AboutInfo = () => {
       <div className="bg-white p-6 rounded-lg shadow">
         <h3 className="font-bold text-lg mb-3">{t("about.legal.title")}</h3>
         <div className="text-sm text-gray-600 space-y-1">
-          <div>ИП «ХХХ»</div>
-          <div>ИНН: xxxxxxxxxx</div>
-          <div>ОГРН: xxxxxxxxxx</div>
-          <div>Веб-сайт: s-3.app</div>
+          <div>ИП КИРЕЕВ А.Ю.</div>
+          <div>ИНН: 580903594790</div>
+          <div>ОГРН/ОГРНИП 324580000058570</div>
+          <div>Веб-сайт: s3-tech.ru</div>
         </div>
       </div>
     </div>
