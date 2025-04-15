@@ -1,4 +1,3 @@
-
 export const partner = {
   "partner.title": "Партнерская программа",
   "partner.subtitle": "Зарабатывайте с нами на внедрении WhatsApp в бизнес клиентов",
@@ -22,7 +21,7 @@ export const partner = {
 
   "partner.detailed.benefits.title": "Преимущества партнерства с S3",
   "partner.detailed.benefits.earning.title": "Высокий доход",
-  "partner.detailed.benefits.earning.desc": "Получайте до 15% с первой продажи и до 10% с ежемесячных платежей клиента",
+  "partner.detailed.benefits.earning.desc": "Вы получаете 10% от всех платежей клиента, пока он работает с нашим сервисом. Если вы ведёте клиента полностью сами — ваша комиссия составит 20%",
   "partner.detailed.benefits.remote.title": "Работа из любой точки",
   "partner.detailed.benefits.remote.desc": "Сотрудничество полностью удаленное, не требует офиса или особых условий",
   "partner.detailed.benefits.growth.title": "Растущий рынок",
@@ -46,12 +45,12 @@ export const partner = {
 
   "partner.detailed.commission.title": "Структура комиссионных",
   "partner.detailed.commission.first.title": "С первичной продажи",
-  "partner.detailed.commission.first.desc": "Вознаграждение с первичного подключения клиента к системе",
-  "partner.detailed.commission.first.rate": "от стоимости подключения",
+  "partner.detailed.commission.first.desc": "10% вознаграждение с первичного подключения клиента к системе",
+  "partner.detailed.commission.first.rate": "10% от стоимости подключения",
   "partner.detailed.commission.recurring.title": "С регулярных платежей",
-  "partner.detailed.commission.recurring.desc": "Пассивный доход с ежемесячных платежей клиента",
-  "partner.detailed.commission.recurring.rate": "от регулярных платежей",
-  "partner.detailed.commission.note": "Фактический размер комиссии зависит от тарифа и объема продаж",
+  "partner.detailed.commission.recurring.desc": "10% — если клиент работает с нашей поддержкой. 20% — если вы ведёте клиента полностью самостоятельно",
+  "partner.detailed.commission.recurring.rate": "10–20% от регулярных платежей",
+  "partner.detailed.commission.note": "Комиссия начисляется ежемесячно, пока клиент пользуется сервисом",
   "partner.detailed.commission.button": "Узнать подробнее",
 
   "partner.detailed.faq.title": "Часто задаваемые вопросы",
