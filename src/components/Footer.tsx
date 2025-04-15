@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6">
-              <li><a href="#" className="text-gray-400 hover:text-white">{t("footer.terms")}</a></li>
+              <li><a href="/terms-of-use.pdf" className="text-gray-400 hover:text-white">{t("footer.terms")}</a></li>
               <li><Link to="/privacy-policy" className="text-gray-400 hover:text-white">{t("footer.privacy")}</Link></li>
             </ul>
           </div>
