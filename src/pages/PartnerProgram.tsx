@@ -166,7 +166,7 @@ const PartnerProgram = () => {
                     <h3 className="text-2xl font-bold mb-4 text-whatsapp">{t("partner.detailed.commission.first.title")}</h3>
                     <p className="text-gray-600 mb-4">{t("partner.detailed.commission.first.desc")}</p>
                     <div className="bg-white rounded-lg p-4 border border-gray-200">
-                      <span className="block text-4xl font-bold text-whatsapp mb-1">5-15%</span>
+                      <span className="block text-4xl font-bold text-whatsapp mb-1">20% от стоимости подключения</span>
                       <span className="text-gray-600">{t("partner.detailed.commission.first.rate")}</span>
                     </div>
                   </div>
@@ -175,7 +175,7 @@ const PartnerProgram = () => {
                     <h3 className="text-2xl font-bold mb-4 text-whatsapp">{t("partner.detailed.commission.recurring.title")}</h3>
                     <p className="text-gray-600 mb-4">{t("partner.detailed.commission.recurring.desc")}</p>
                     <div className="bg-white rounded-lg p-4 border border-gray-200">
-                      <span className="block text-4xl font-bold text-whatsapp mb-1">3-10%</span>
+                      <span className="block text-4xl font-bold text-whatsapp mb-1">10–20% от регулярных платежей</span>
                       <span className="text-gray-600">{t("partner.detailed.commission.recurring.rate")}</span>
                     </div>
                   </div>
