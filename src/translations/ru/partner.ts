@@ -45,8 +45,8 @@ export const partner = {
 
   "partner.detailed.commission.title": "Структура комиссионных",
   "partner.detailed.commission.first.title": "С первичной продажи",
-  "partner.detailed.commission.first.desc": "10% вознаграждение с первичного подключения клиента к системе",
-  "partner.detailed.commission.first.rate": "10% от стоимости подключения",
+  "partner.detailed.commission.first.desc": "20% вознаграждение с первичного подключения клиента к системе",
+  "partner.detailed.commission.first.rate": "20% от стоимости подключения",
   "partner.detailed.commission.recurring.title": "С регулярных платежей",
   "partner.detailed.commission.recurring.desc": "10% — если клиент работает с нашей поддержкой. 20% — если вы ведёте клиента полностью самостоятельно",
   "partner.detailed.commission.recurring.rate": "10–20% от регулярных платежей",
