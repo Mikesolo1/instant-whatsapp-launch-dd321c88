@@ -4,7 +4,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from "@/components/ui/button";
-import { ChevronLeft, Calculator, TrendingDown, TrendingUp, Check, ArrowDown } from "lucide-react";
+import { ChevronLeft, Calculator, TrendingDown, TrendingUp, Check, ArrowDown, Database, Users } from "lucide-react";
 import { Link } from 'react-router-dom';
 import ContactDialog from '@/components/ContactDialog';
 import {
@@ -300,6 +300,80 @@ const Tariffs = () => {
                         )}
                       </>
                     )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* NEW: CRM Integration Section */}
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="text-2xl font-bold mb-10 text-center">{t("tariffs.crm.title")}</h2>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-xl border shadow-sm flex flex-col h-full">
+                  <div className="flex items-center mb-4">
+                    <Database className="h-8 w-8 mr-3 text-indigo-600" />
+                    <h3 className="text-xl font-semibold">{t("tariffs.crm.api")}</h3>
+                  </div>
+                  <div className="flex-grow">
+                    <p className="mb-6">API интеграция позволяет гибко настроить обмен данными между нашей системой и вашим CRM.</p>
+                  </div>
+                  <div className="mt-4">
+                    <div className="inline-block bg-green-100 text-green-800 font-semibold px-4 py-2 rounded-lg">
+                      {t("tariffs.crm.api.price")}
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-xl border shadow-sm flex flex-col h-full">
+                  <div className="flex items-center mb-4">
+                    <Database className="h-8 w-8 mr-3 text-indigo-600" />
+                    <h3 className="text-xl font-semibold">{t("tariffs.crm.amo")}</h3>
+                  </div>
+                  <div className="flex-grow">
+                    <p className="mb-6">Готовый виджет для AMO CRM с настроенной синхронизацией контактов, сделок и сообщений. Быстрое подключение без разработки.</p>
+                  </div>
+                  <div className="mt-4">
+                    <div className="inline-block bg-indigo-100 text-indigo-800 font-semibold px-4 py-2 rounded-lg">
+                      {t("tariffs.crm.amo.price")}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        {/* NEW: Personal Manager Section */}
+        <section className="py-12 bg-gradient-to-br from-indigo-50 to-purple-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <div className="bg-white p-8 rounded-xl border shadow-sm">
+                <div className="flex items-center mb-6">
+                  <Users className="h-8 w-8 mr-3 text-indigo-600" />
+                  <h2 className="text-2xl font-bold">{t("tariffs.manager.title")}</h2>
+                </div>
+                
+                <p className="text-lg mb-8">{t("tariffs.manager.description")}</p>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div className="bg-green-50 p-6 rounded-lg border border-green-100">
+                    <div className="flex items-center mb-4">
+                      <Check className="h-6 w-6 text-green-500 mr-2" />
+                      <h3 className="text-xl font-semibold text-green-700">{t("tariffs.manager.free")}</h3>
+                    </div>
+                    <p>Получите персонального CRM маркетолога бесплатно при оплате тарифа на базу от 5 000 активных клиентов</p>
+                  </div>
+                  
+                  <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                    <div className="flex items-center mb-4">
+                      <h3 className="text-xl font-semibold text-blue-700">{t("tariffs.manager.paid")}</h3>
+                    </div>
+                    <p>Для тарифов с меньшей клиентской базой персональный менеджер доступен за дополнительную плату</p>
                   </div>
                 </div>
               </div>
