@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -638,4 +639,83 @@ print(response.text)`}
                   <CardContent className="pt-6">
                     <div className="mb-6">
                       <h3 className="font-semibold text-lg flex items-center gap-2 mb-3">
-                        <Search className="h
+                        <Search className="h-4 w-4" />
+                        Быстрый старт
+                      </h3>
+                      <p className="text-sm text-gray-600 mb-3">Начните работу с API за 5 минут</p>
+                      <ul className="space-y-2">
+                        <li>
+                          <a href="#intro" className="text-sm text-blue-600 hover:underline flex items-center gap-1">
+                            <Info className="h-4 w-4" /> Введение
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#auth" className="text-sm text-blue-600 hover:underline flex items-center gap-1">
+                            <Key className="h-4 w-4" /> Авторизация
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#webhooks" className="text-sm text-blue-600 hover:underline flex items-center gap-1">
+                            <MessageSquare className="h-4 w-4" /> Webhook-сообщения
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#messages" className="text-sm text-blue-600 hover:underline flex items-center gap-1">
+                            <Server className="h-4 w-4" /> Отправка сообщений
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#media" className="text-sm text-blue-600 hover:underline flex items-center gap-1">
+                            <Upload className="h-4 w-4" /> Отправка медиафайла
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    
+                    <div className="mb-6">
+                      <h3 className="font-semibold text-lg flex items-center gap-2 mb-3">
+                        <Code className="h-4 w-4" />
+                        Примеры кода
+                      </h3>
+                      <p className="text-sm text-gray-600 mb-3">Готовые примеры для разных языков</p>
+                      <ul className="space-y-2">
+                        <li>
+                          <a href="#" className="text-sm text-blue-600 hover:underline flex items-center gap-1">
+                            <FileCode className="h-4 w-4" /> PHP
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" className="text-sm text-blue-600 hover:underline flex items-center gap-1">
+                            <FileCode className="h-4 w-4" /> Python
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" className="text-sm text-blue-600 hover:underline flex items-center gap-1">
+                            <FileCode className="h-4 w-4" /> JavaScript
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" className="text-sm text-blue-600 hover:underline flex items-center gap-1">
+                            <FileCode className="h-4 w-4" /> Go
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" className="text-sm text-blue-600 hover:underline flex items-center gap-1">
+                            <Terminal className="h-4 w-4" /> cURL
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default ApiDocs;
