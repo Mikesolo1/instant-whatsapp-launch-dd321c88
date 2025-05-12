@@ -62,8 +62,8 @@ const Footer = () => {
             <h4 className="font-semibold mb-3 text-lg">{t("footer.support")}</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white">{t("footer.support.help")}</a></li>
+              <li><Link to="/api-docs" className="text-gray-400 hover:text-white">{t("footer.support.api")}</Link></li>
               <li><a href="#" className="text-gray-400 hover:text-white">{t("footer.support.docs")}</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">{t("footer.support.api")}</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white">{t("footer.support.partners")}</a></li>
             </ul>
           </div>
