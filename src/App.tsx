@@ -12,6 +12,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import PartnerProgram from "./pages/PartnerProgram";
 import Tariffs from "./pages/Tariffs";
 import ApiDocs from "./pages/ApiDocs";
+import Help from "./pages/Help";
 
 const App = () => {
   // Create a new QueryClient instance inside the component
@@ -30,6 +31,7 @@ const App = () => {
               <Route path="/partner-program" element={<PartnerProgram />} />
               <Route path="/tariffs" element={<Tariffs />} />
               <Route path="/api-docs" element={<ApiDocs />} />
+              <Route path="/help" element={<Help />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

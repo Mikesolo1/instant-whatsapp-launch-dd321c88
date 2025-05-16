@@ -35,6 +35,9 @@ const Header = () => {
           <Link to="/partner-program" className="text-sm font-medium text-gray-800 hover:text-whatsapp transition-colors">
             {t("menu.partner")}
           </Link>
+          <Link to="/help" className="text-sm font-medium text-gray-800 hover:text-whatsapp transition-colors">
+            {t("menu.help")}
+          </Link>
         </nav>
         
         <div className="flex items-center space-x-4">

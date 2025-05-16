@@ -20,6 +20,7 @@ export const footer = {
   "footer.support.docs": "Құжаттама",
   "footer.support.api": "API",
   "footer.support.partners": "Серіктестік",
+  "footer.support.helpPage": "Көмек",
   
   "footer.rights": "Барлық құқықтар қорғалған.",
   "footer.terms": "Қолдану шарттары",

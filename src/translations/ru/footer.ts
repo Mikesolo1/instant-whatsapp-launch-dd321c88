@@ -20,6 +20,7 @@ export const footer = {
   "footer.support.docs": "Документация",
   "footer.support.api": "API",
   "footer.support.partners": "Партнерство",
+  "footer.support.helpPage": "Помощь",
   
   "footer.rights": "Все права защищены.",
   "footer.terms": "Условия использования",

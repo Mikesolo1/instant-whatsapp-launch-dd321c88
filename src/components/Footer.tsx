@@ -65,6 +65,7 @@ const Footer = () => {
               <li><Link to="/api-docs" className="text-gray-400 hover:text-white">{t("footer.support.api")}</Link></li>
               <li><a href="#" className="text-gray-400 hover:text-white">{t("footer.support.docs")}</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white">{t("footer.support.partners")}</a></li>
+              <li><Link to="/help" className="text-gray-400 hover:text-white">{t("footer.support.helpPage")}</Link></li>
             </ul>
           </div>
         </div>
