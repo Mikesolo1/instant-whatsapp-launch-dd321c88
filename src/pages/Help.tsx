@@ -128,6 +128,7 @@ const Help = () => {
                   <Button 
                     variant="default" 
                     className="mt-4 bg-whatsapp hover:bg-whatsapp-dark"
+                    onClick={() => window.open("https://t.me/S3_support", "_blank")}
                   >
                     <MessageSquare className="mr-2 h-4 w-4" />
                     {t("help.contact_button")}
