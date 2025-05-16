@@ -1,3 +1,4 @@
+
 export const partner = {
   "partner.title": "Партнерская программа",
   "partner.subtitle": "Зарабатывайте с нами на внедрении WhatsApp в бизнес клиентов",
@@ -11,6 +12,11 @@ export const partner = {
   "partner.formTitle": "Заявка на партнерство",
   "partner.formDescription": "Заполните форму и наш менеджер свяжется с вами для обсуждения условий сотрудничества",
   "partner.service": "Партнерская программа",
+
+  // Portal banner translations
+  "partner.detailed.portal.registered": "Уже зарегистрированы?",
+  "partner.detailed.portal.title": "Войдите в личный кабинет партнера",
+  "partner.detailed.portal.button": "Партнерский портал",
 
   // Detailed page translations
   "partner.detailed.title": "Партнерская программа S3",

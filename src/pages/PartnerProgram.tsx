@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
@@ -8,7 +9,8 @@ import {
   CoinsIcon, 
   BarChart2Icon, 
   UsersIcon,
-  MailIcon
+  MailIcon,
+  ExternalLink
 } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -22,6 +24,27 @@ const PartnerProgram = () => {
       <Header />
       
       <main>
+        {/* Partners Portal Banner */}
+        <section className="bg-whatsapp py-4">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col md:flex-row items-center justify-between">
+              <div className="text-white mb-3 md:mb-0">
+                <span className="font-medium">{t("partner.detailed.portal.registered")}</span>
+                {" "}
+                <span className="font-bold">{t("partner.detailed.portal.title")}</span>
+              </div>
+              <Button 
+                variant="outline" 
+                className="bg-white text-whatsapp hover:bg-gray-100 flex items-center gap-2"
+                onClick={() => window.open("https://partners.s3-tech.ru/", "_blank")}
+              >
+                {t("partner.detailed.portal.button")}
+                <ExternalLink className="h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+        </section>
+
         {/* Hero Section */}
         <section className="py-16 bg-gradient-to-r from-purple-100 to-violet-100">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
