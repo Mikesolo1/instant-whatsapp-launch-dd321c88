@@ -44,4 +44,24 @@ export const help = {
   
   "menu.help": "Көмек",
   "footer.support.helpPage": "Көмек",
+
+  // Examples of correctly formatted requests
+  "help.examples.title": "Дұрыс рәсімделген сұраулардың мысалдары",
+  "help.examples.subtitle": "Міне, S3 қолдау қызметіне дұрыс рәсімделген сұраулардың мысалдары, жағдайды жылдам түсінуге көмектеседі:",
+  
+  "help.examples.technical.title": "Мысал 1: Техникалық қате",
+  "help.examples.technical.subject": "Тақырып: Таратылым іске қосылмайды",
+  "help.examples.technical.time": "Уақыт: 16.05.2025, шамамен 10:40 МСК",
+  "help.examples.technical.phone": "Чат телефоны: +7 900 123‑45‑67",
+  "help.examples.technical.description": "Сипаттама:",
+  "help.examples.technical.issue1": "80 нөмірден тұратын сегмент бойынша таратылымды іске қосуға тырыстық, бірақ ол кетпейді — күй \"Күту\" күйінде қалды.",
+  "help.examples.technical.issue2": "Шектеулерді тексердік — бәрі қалыпты.",
+  "help.examples.technical.attachment": "Қосымша: экран скриншоты + іске қосу әрекетімен қысқа бейне",
+  
+  "help.examples.templates.title": "Мысал 2: Үлгілер туралы сұрақ",
+  "help.examples.templates.subject": "Тақырып: Қайта клиенттерге арналған үлгіге көмектесіңіз",
+  "help.examples.templates.description": "60 күннен астам бұрын тапсырыс берген адамдарға таратылым жасау керек.",
+  "help.examples.templates.question1": "Сегментті қалай дұрыс баптау керек?",
+  "help.examples.templates.question2": "Егер клиент профилінде аты көрсетілген болса, біз атымен айнымалыларды қолдана аламыз ба?",
+  "help.examples.templates.closing": "Рахмет!"
 };

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Clock, Mail, Phone, MessageSquare, CalendarDays } from "lucide-react";
+import { Clock, Mail, Phone, MessageSquare, CalendarDays, FileText, Terminal } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
@@ -119,6 +119,57 @@ const Help = () => {
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>
+                </div>
+                
+                {/* Examples of correctly formatted requests */}
+                <div className="mb-6">
+                  <h3 className="font-semibold text-lg mb-3 text-whatsapp flex items-center gap-2">
+                    <FileText className="h-5 w-5" /> {t("help.examples.title")}
+                  </h3>
+                  <p className="text-gray-700 mb-4">{t("help.examples.subtitle")}</p>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {/* Technical Error Example */}
+                    <Card className="border-whatsapp/20 bg-whatsapp/5">
+                      <CardContent className="p-4">
+                        <h4 className="font-medium text-whatsapp flex items-center gap-2 mb-2">
+                          <Terminal className="h-4 w-4" />
+                          {t("help.examples.technical.title")}
+                        </h4>
+                        <div className="space-y-2 text-sm">
+                          <p className="font-medium">{t("help.examples.technical.subject")}</p>
+                          <p>{t("help.examples.technical.time")}</p>
+                          <p>{t("help.examples.technical.phone")}</p>
+                          <p className="font-medium">{t("help.examples.technical.description")}</p>
+                          <ul className="list-disc pl-5">
+                            <li>{t("help.examples.technical.issue1")}</li>
+                            <li>{t("help.examples.technical.issue2")}</li>
+                          </ul>
+                          <p className="italic">{t("help.examples.technical.attachment")}</p>
+                        </div>
+                      </CardContent>
+                    </Card>
+                    
+                    {/* Templates Question Example */}
+                    <Card className="border-whatsapp/20 bg-whatsapp/5">
+                      <CardContent className="p-4">
+                        <h4 className="font-medium text-whatsapp flex items-center gap-2 mb-2">
+                          <MessageSquare className="h-4 w-4" />
+                          {t("help.examples.templates.title")}
+                        </h4>
+                        <div className="space-y-2 text-sm">
+                          <p className="font-medium">{t("help.examples.templates.subject")}</p>
+                          <p>{t("help.examples.templates.description")}</p>
+                          <p className="font-medium">Подскажите:</p>
+                          <ol className="list-decimal pl-5">
+                            <li>{t("help.examples.templates.question1")}</li>
+                            <li>{t("help.examples.templates.question2")}</li>
+                          </ol>
+                          <p className="font-medium">{t("help.examples.templates.closing")}</p>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
                 </div>
                 
                 <div className="text-center border-t border-gray-200 pt-6">

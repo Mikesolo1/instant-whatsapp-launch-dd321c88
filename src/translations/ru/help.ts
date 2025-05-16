@@ -44,4 +44,24 @@ export const help = {
   
   "menu.help": "Помощь",
   "footer.support.helpPage": "Помощь",
+
+  // Examples of correctly formatted requests
+  "help.examples.title": "Примеры правильно оформленных запросов",
+  "help.examples.subtitle": "Вот подборка примеров корректно оформленных запросов в службу поддержки S3, которые помогают быстро разобраться в ситуации:",
+  
+  "help.examples.technical.title": "Пример 1: Техническая ошибка",
+  "help.examples.technical.subject": "Тема: Не запускается рассылка",
+  "help.examples.technical.time": "Время: 16.05.2025, около 10:40 МСК",
+  "help.examples.technical.phone": "Телефон чата: +7 900 123‑45‑67",
+  "help.examples.technical.description": "Описание:",
+  "help.examples.technical.issue1": "Пытались запустить рассылку по сегменту из 80 номеров, но она не уходит — статус зависает на \"Ожидание\".",
+  "help.examples.technical.issue2": "Проверили лимиты — всё в норме.",
+  "help.examples.technical.attachment": "Приложение: скриншот экрана + короткое видео с попыткой запуска",
+  
+  "help.examples.templates.title": "Пример 2: Вопрос по шаблонам",
+  "help.examples.templates.subject": "Тема: Помогите с шаблоном для повторных клиентов",
+  "help.examples.templates.description": "Нужно сделать рассылку для тех, кто заказывал более 60 дней назад.",
+  "help.examples.templates.question1": "Как правильно настроить сегмент?",
+  "help.examples.templates.question2": "Можем ли мы использовать переменные с именем, если в профиле клиента оно указано?",
+  "help.examples.templates.closing": "Спасибо!"
 };
