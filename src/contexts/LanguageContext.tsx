@@ -2,7 +2,7 @@
 import React, { createContext, useState, useContext, ReactNode, useEffect } from 'react';
 import { translations } from '@/translations';
 
-export type Language = 'ru' | 'kz';
+export type Language = 'ru' | 'kz' | 'en';
 
 interface LanguageContextType {
   language: Language;
@@ -16,7 +16,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const getInitialLanguage = (): Language => {
   if (typeof window !== 'undefined') {
     const savedLanguage = localStorage.getItem('language') as Language;
-    if (savedLanguage === 'ru' || savedLanguage === 'kz') {
+    if (savedLanguage === 'ru' || savedLanguage === 'kz' || savedLanguage === 'en') {
       console.log("Initial language from localStorage:", savedLanguage);
       return savedLanguage;
     }
