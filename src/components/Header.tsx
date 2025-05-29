@@ -18,7 +18,7 @@ const Header = () => {
     { title: t("menu.cases"), href: "/#cases" },
     { title: t("menu.pricing"), href: "/tariffs" },
     { title: t("menu.about"), href: "/#about" },
-    { title: t("menu.partner"), href: "/partner-program" },
+    { title: t("menu.partner"), href: "https://partners.s3-tech.ru/", external: true },
     { title: t("menu.help"), href: "/help" }
   ];
 
@@ -45,9 +45,14 @@ const Header = () => {
           <a href="/#about" className="text-sm font-medium text-gray-800 hover:text-whatsapp transition-colors">
             {t("menu.about")}
           </a>
-          <Link to="/partner-program" className="text-sm font-medium text-gray-800 hover:text-whatsapp transition-colors">
+          <a 
+            href="https://partners.s3-tech.ru/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sm font-medium text-gray-800 hover:text-whatsapp transition-colors"
+          >
             {t("menu.partner")}
-          </Link>
+          </a>
           <Link to="/help" className="text-sm font-medium text-gray-800 hover:text-whatsapp transition-colors">
             {t("menu.help")}
           </Link>
@@ -93,13 +98,25 @@ const Header = () => {
                         {item.title}
                       </AccordionTrigger>
                       <AccordionContent>
-                        <Link 
-                          to={item.href} 
-                          onClick={() => setOpen(false)}
-                          className="block py-2 px-4 text-sm hover:text-whatsapp"
-                        >
-                          {item.title}
-                        </Link>
+                        {item.external ? (
+                          <a 
+                            href={item.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={() => setOpen(false)}
+                            className="block py-2 px-4 text-sm hover:text-whatsapp"
+                          >
+                            {item.title}
+                          </a>
+                        ) : (
+                          <Link 
+                            to={item.href} 
+                            onClick={() => setOpen(false)}
+                            className="block py-2 px-4 text-sm hover:text-whatsapp"
+                          >
+                            {item.title}
+                          </Link>
+                        )}
                       </AccordionContent>
                     </AccordionItem>
                   ))}
